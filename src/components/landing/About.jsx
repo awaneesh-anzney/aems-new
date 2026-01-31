@@ -44,9 +44,14 @@ export function About() {
                         {/* Image Frame */}
                         <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 aspect-[4/5] bg-gray-900 group">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-60 z-10 transition-opacity group-hover:opacity-40"></div>
-                            {/* Placeholder for the image. In a real app, use the actual image path or URL */}
-                            <div className="absolute inset-0 flex items-center justify-center bg-gray-800 text-gray-500">
-                                <span className="text-lg">Team Meeting Image</span>
+                            {/* Placeholder for the image */}
+                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-800 text-gray-500 gap-4">
+                                <div className="w-16 h-16 rounded-full bg-white/5 flex items-center justify-center backdrop-blur-sm border border-white/10">
+                                    <svg className="w-8 h-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                </div>
+                                <span className="text-sm font-medium tracking-widest uppercase text-gray-600">Company Culture</span>
                             </div>
                             {/* Decorative elements */}
                             <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-blue-600/20 rounded-full blur-2xl"></div>
