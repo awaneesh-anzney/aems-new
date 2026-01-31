@@ -16,7 +16,7 @@ export function Header() {
                     <div className="bg-gradient-to-br from-blue-600 to-red-600 p-1 rounded-lg">
                         <UserCircle className="h-8 w-8 text-white" />
                     </div>
-                    <span className="text-xl font-bold text-foreground tracking-tight">Flux Bridge</span>
+                    <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>
                 </Link>
 
                 {/* Desktop Navigation */}

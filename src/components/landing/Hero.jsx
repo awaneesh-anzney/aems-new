@@ -37,7 +37,7 @@ export function Hero() {
                     transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                     className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed"
                 >
-                    Flux Bridge is a global Human Capital and Business Advisory firm headquartered in Riyadh,
+                    Professional Executive Management Services Pvt Ltd. is a global Human Capital and Business Advisory firm,
                     helping organizations redefine success through executive recruitment, leadership development,
                     HR strategy, and digital transformation.
                 </motion.p>

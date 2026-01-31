@@ -16,10 +16,10 @@ export function Footer() {
                             <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
                                 <span className="text-white font-bold text-xl">F6</span>
                             </div>
-                            <span className="text-xl font-bold text-foreground tracking-tight">Flux Bridge</span>
+                            <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>
                         </Link>
                         <p className="text-sm leading-relaxed max-w-xs">
-                            Flux Bridge is a global Human Capital Advisory firm headquartered in Riyadh, KSA.
+                            Professional Executive Management Services Pvt Ltd. is a global Human Capital Advisory firm.
                             Since 2017, we've partnered with 100+ clients across 14+ countries, helping organizations
                             transform people, processes, and technology for sustainable success.
                         </p>
@@ -47,24 +47,16 @@ export function Footer() {
                         <h3 className="text-foreground font-semibold text-lg">Contact Info</h3>
                         <div className="space-y-6 text-sm">
                             <div className="space-y-2">
-                                <h4 className="text-foreground font-medium">Headquarters (KSA)</h4>
+                                <h4 className="text-foreground font-medium">Headquarters</h4>
                                 <p className="leading-relaxed">
-                                    Flux Bridge Co. 7783, Ibn Katheer St — King Abdulaziz District Riyadh 12233-4264,
-                                    Kingdom of Saudi Arabia
+                                    D/SH 73, Elco Arcade, Behind ELCO Hotel<br />
+                                    46 Hill Road, Bandra West<br />
+                                    Mumbai 400050, India
                                 </p>
-                            </div>
-                            <div className="space-y-2">
-                                <h4 className="text-foreground font-medium">India</h4>
-                                <p className="leading-relaxed">
-                                    BLDG No: 2, A3 Station, Unit No: 118 Opposite RUPA SOLITAIRE, Millennium Business Park Sector 1,
-                                    Mahape, Navi Mumbai, Maharashtra 400701
-                                </p>
-                            </div>
-                            <div className="space-y-2">
-                                <h4 className="text-foreground font-medium">UAE:</h4>
-                                <p className="leading-relaxed">
-                                    IFZA Property, Freezone Building A1 Dubai Digital Park, Dubai Silicon Oasis, Dubai, UAE
-                                </p>
+                                <div className="mt-2 text-xs opacity-80 grid gap-1">
+                                    <p>GSTIN : 27AAFCP2909R1ZT</p>
+                                    <p>PAN No:AAFCP2909R</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -105,7 +97,7 @@ export function Footer() {
                 {/* Bottom Bar */}
                 <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
                     <p>
-                        Copyright &copy; {new Date().getFullYear()} Flux Bridge Co. All Rights Reserved.
+                        Copyright &copy; {new Date().getFullYear()} Professional Executive Management Services Pvt Ltd. All Rights Reserved.
                     </p>
                     <div className="flex gap-6">
                         <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
