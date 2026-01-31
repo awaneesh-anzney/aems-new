@@ -4,6 +4,7 @@ import { UserCircle, Linkedin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
     return (
@@ -13,8 +14,13 @@ export function Footer() {
                     {/* Logo & Description */}
                     <div className="space-y-6">
                         <Link href="/" className="flex items-center gap-2">
-                            <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
-                                <span className="text-white font-bold text-xl">F6</span>
+                            <div className="relative h-16 w-32">
+                                <Image
+                                    src="/aems-n.png"
+                                    alt="AEMS Logo"
+                                    fill
+                                    className="object-contain object-left"
+                                />
                             </div>
                             <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>
                         </Link>

@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { UserCircle, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export function Header() {
@@ -13,8 +14,13 @@ export function Header() {
             <div className="container mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 z-50">
-                    <div className="bg-gradient-to-br from-blue-600 to-red-600 p-1 rounded-lg">
-                        <UserCircle className="h-8 w-8 text-white" />
+                    <div className="relative h-12 w-24">
+                        <Image
+                            src="/aems-n.png"
+                            alt="AEMS Logo"
+                            fill
+                            className="object-contain object-left"
+                        />
                     </div>
                     <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>
                 </Link>
