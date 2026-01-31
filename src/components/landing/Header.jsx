@@ -19,7 +19,7 @@ export function Header() {
                             src="/aems-n.png"
                             alt="AEMS Logo"
                             fill
-                            className="object-contain object-left invert"
+                            className="object-contain object-left"
                         />
                     </div>
                     <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>
@@ -40,12 +40,14 @@ export function Header() {
                 </nav>
 
                 {/* CTA Button (Desktop) */}
-                <Button
-                    variant="outline"
-                    className="hidden md:inline-flex bg-transparent text-foreground border-border hover:bg-white/10 hover:text-foreground rounded-full px-6 transition-all hover:scale-105"
-                >
-                    Contact
-                </Button>
+                <Link href="#contact">
+                    <Button
+                        variant="outline"
+                        className="hidden md:inline-flex bg-transparent text-foreground border-border hover:bg-white/10 hover:text-foreground rounded-full px-6 transition-all hover:scale-105"
+                    >
+                        Contact
+                    </Button>
+                </Link>
 
                 {/* Mobile Menu Toggle */}
                 <button
@@ -69,12 +71,14 @@ export function Header() {
                             </Link>
                         ))}
                     </nav>
-                    <Button
-                        variant="outline"
-                        className="bg-transparent text-foreground border-border hover:bg-white/10 hover:text-foreground rounded-full px-8 py-6 text-lg"
-                    >
-                        Contact Details
-                    </Button>
+                    <Link href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+                        <Button
+                            variant="outline"
+                            className="bg-transparent text-foreground border-border hover:bg-white/10 hover:text-foreground rounded-full px-8 py-6 text-lg"
+                        >
+                            Contact Details
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </header>

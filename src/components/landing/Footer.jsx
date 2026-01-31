@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export function Footer() {
     return (
-        <footer className="bg-background border-t border-border pt-20 pb-10 text-muted-foreground">
+        <footer id="contact" className="bg-background border-t border-border pt-20 pb-10 text-muted-foreground">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
                     {/* Logo & Description */}
@@ -19,7 +19,7 @@ export function Footer() {
                                     src="/aems-n.png"
                                     alt="AEMS Logo"
                                     fill
-                                    className="object-contain object-left invert"
+                                    className="object-contain object-left"
                                 />
                             </div>
                             <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>

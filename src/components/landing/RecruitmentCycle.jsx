@@ -84,7 +84,7 @@ export function RecruitmentCycle() {
             </div>
 
             <div className="container mx-auto px-4 md:px-6 relative z-10">
-                <h2 className="text-3xl md:text-5xl font-bold text-center mb-24 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-100 to-white">
+                <h2 className="text-3xl md:text-5xl font-bold text-center mb-24 tracking-tight bg-clip-text">
                     Executive Search<br />Recruitment Cycle
                 </h2>
 
