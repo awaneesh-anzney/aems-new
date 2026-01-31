@@ -83,7 +83,7 @@ export function Services() {
                             key={service.id}
                             className={cn(
                                 "group border-b border-border transition-all duration-300",
-                                activeItem === service.id ? "bg-card/50" : "hover:bg-white/5"
+                                activeItem === service.id ? "bg-muted" : "hover:bg-muted/50"
                             )}
                         >
                             <button

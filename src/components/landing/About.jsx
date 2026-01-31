@@ -40,27 +40,17 @@ export function About() {
                         </div>
                     </div>
 
-                    <div className="relative max-w-md mx-auto">
-                        {/* Image Frame */}
-                        <div className="relative z-10 rounded-2xl overflow-hidden border border-border aspect-[4/5] bg-card group">
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-60 z-10 transition-opacity group-hover:opacity-40"></div>
-                            {/* Placeholder for the image */}
-                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-card text-muted-foreground gap-4">
-                                <div className="w-16 h-16 rounded-full bg-white/5 flex items-center justify-center backdrop-blur-sm border border-border">
-                                    <svg className="w-8 h-8 text-muted-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                                    </svg>
-                                </div>
-                                <span className="text-sm font-medium tracking-widest uppercase text-muted-foreground">Company Culture</span>
-                            </div>
-                            {/* Decorative elements */}
-                            <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-primary/20 rounded-full blur-2xl"></div>
-                            <div className="absolute -top-10 -left-10 w-32 h-32 bg-purple-600/20 rounded-full blur-2xl"></div>
+                    <div className="relative w-full mx-auto">
+                        <div className="rounded-2xl overflow-hidden border border-border shadow-xl">
+                            <Image
+                                src="/team.png"
+                                alt="Company Culture"
+                                width={800}
+                                height={600}
+                                className="w-full h-auto object-cover"
+                                priority
+                            />
                         </div>
-
-                        {/* Decorative border outline offset */}
-                        {/* Decorative border outline offset */}
-                        <div className="absolute top-6 left-6 w-full h-full rounded-2xl border-2 border-primary/50 -z-10 bg-transparent"></div>
                     </div>
 
                 </div>

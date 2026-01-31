@@ -108,13 +108,13 @@ export function RecruitmentCycle() {
                         <div className="flex flex-col gap-16 justify-center h-full order-2 lg:order-1">
                             {/* Item 6: Onboarding */}
                             <div className="flex gap-6 items-center lg:flex-row-reverse lg:text-right group">
-                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
+                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white to-gray-100 border border-border flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                                    <Rocket className="w-7 h-7 text-gray-400 group-hover:text-secondary transition-colors" />
+                                    <Rocket className="w-7 h-7 text-muted-foreground group-hover:text-secondary transition-colors" />
                                 </div>
-                                <div className="p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5 flex-1">
-                                    <h3 className="text-lg font-bold text-white mb-2">Candidate On-Boarding</h3>
-                                    <ul className="text-gray-400 text-sm space-y-1.5 font-medium">
+                                <div className="p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border/50 flex-1">
+                                    <h3 className="text-lg font-bold text-foreground mb-2">Candidate On-Boarding</h3>
+                                    <ul className="text-muted-foreground text-sm space-y-1.5 font-medium">
                                         {steps[5].items.map((item, i) => <li key={i}>{item}</li>)}
                                     </ul>
                                 </div>
@@ -122,13 +122,13 @@ export function RecruitmentCycle() {
 
                             {/* Item 5: Offer */}
                             <div className="flex gap-6 items-center lg:flex-row-reverse lg:text-right group">
-                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
+                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white to-gray-100 border border-border flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                                    <FileSignature className="w-7 h-7 text-gray-400 group-hover:text-secondary transition-colors" />
+                                    <FileSignature className="w-7 h-7 text-muted-foreground group-hover:text-secondary transition-colors" />
                                 </div>
-                                <div className="p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5 flex-1">
-                                    <h3 className="text-lg font-bold text-white mb-2">Offer Letter</h3>
-                                    <ul className="text-gray-400 text-sm space-y-1.5 font-medium">
+                                <div className="p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border/50 flex-1">
+                                    <h3 className="text-lg font-bold text-foreground mb-2">Offer Letter</h3>
+                                    <ul className="text-muted-foreground text-sm space-y-1.5 font-medium">
                                         {steps[4].items.map((item, i) => <li key={i}>{item}</li>)}
                                     </ul>
                                 </div>
@@ -136,13 +136,13 @@ export function RecruitmentCycle() {
 
                             {/* Item 4: Interview */}
                             <div className="flex gap-6 items-center lg:flex-row-reverse lg:text-right group">
-                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
+                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white to-gray-100 border border-border flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                                    <Users className="w-7 h-7 text-gray-400 group-hover:text-secondary transition-colors" />
+                                    <Users className="w-7 h-7 text-muted-foreground group-hover:text-secondary transition-colors" />
                                 </div>
-                                <div className="p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5 flex-1">
-                                    <h3 className="text-lg font-bold text-white mb-2">Client Interview</h3>
-                                    <ul className="text-gray-400 text-sm space-y-1.5 font-medium">
+                                <div className="p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border/50 flex-1">
+                                    <h3 className="text-lg font-bold text-foreground mb-2">Client Interview</h3>
+                                    <ul className="text-muted-foreground text-sm space-y-1.5 font-medium">
                                         {steps[3].items.map((item, i) => <li key={i}>{item}</li>)}
                                     </ul>
                                 </div>
@@ -153,13 +153,13 @@ export function RecruitmentCycle() {
                         <div className="flex flex-col gap-16 justify-center h-full order-1 lg:order-2">
                             {/* Item 1: Understand Needs */}
                             <div className="flex gap-6 items-center group">
-                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
+                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white to-gray-100 border border-border flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                                    <Target className="w-7 h-7 text-gray-400 group-hover:text-secondary transition-colors" />
+                                    <Target className="w-7 h-7 text-muted-foreground group-hover:text-secondary transition-colors" />
                                 </div>
-                                <div className="p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5 flex-1">
-                                    <h3 className="text-lg font-bold text-white mb-2">Understand Client Needs</h3>
-                                    <ul className="text-gray-400 text-sm space-y-1.5 font-medium">
+                                <div className="p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border/50 flex-1">
+                                    <h3 className="text-lg font-bold text-foreground mb-2">Understand Client Needs</h3>
+                                    <ul className="text-muted-foreground text-sm space-y-1.5 font-medium">
                                         {steps[0].items.map((item, i) => <li key={i}>{item}</li>)}
                                     </ul>
                                 </div>
@@ -167,13 +167,13 @@ export function RecruitmentCycle() {
 
                             {/* Item 2: Sourcing */}
                             <div className="flex gap-6 items-center group">
-                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
+                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white to-gray-100 border border-border flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                                    <Search className="w-7 h-7 text-gray-400 group-hover:text-secondary transition-colors" />
+                                    <Search className="w-7 h-7 text-muted-foreground group-hover:text-secondary transition-colors" />
                                 </div>
-                                <div className="p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5 flex-1">
-                                    <h3 className="text-lg font-bold text-white mb-2">Sourcing Candidates</h3>
-                                    <ul className="text-gray-400 text-sm space-y-1.5 font-medium">
+                                <div className="p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border/50 flex-1">
+                                    <h3 className="text-lg font-bold text-foreground mb-2">Sourcing Candidates</h3>
+                                    <ul className="text-muted-foreground text-sm space-y-1.5 font-medium">
                                         {steps[1].items.map((item, i) => <li key={i}>{item}</li>)}
                                     </ul>
                                 </div>
@@ -181,13 +181,13 @@ export function RecruitmentCycle() {
 
                             {/* Item 3: Screening */}
                             <div className="flex gap-6 items-center group">
-                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
+                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white to-gray-100 border border-border flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-secondary/20 group-hover:border-secondary/50 transition-all duration-300 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                                    <Filter className="w-7 h-7 text-gray-400 group-hover:text-secondary transition-colors" />
+                                    <Filter className="w-7 h-7 text-muted-foreground group-hover:text-secondary transition-colors" />
                                 </div>
-                                <div className="p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5 flex-1">
-                                    <h3 className="text-lg font-bold text-white mb-2">AEMS Candidate Screening</h3>
-                                    <ul className="text-gray-400 text-sm space-y-1.5 font-medium">
+                                <div className="p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border/50 flex-1">
+                                    <h3 className="text-lg font-bold text-foreground mb-2">AEMS Candidate Screening</h3>
+                                    <ul className="text-muted-foreground text-sm space-y-1.5 font-medium">
                                         {steps[2].items.map((item, i) => <li key={i}>{item}</li>)}
                                     </ul>
                                 </div>
@@ -197,6 +197,6 @@ export function RecruitmentCycle() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

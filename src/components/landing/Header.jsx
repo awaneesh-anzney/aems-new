@@ -19,7 +19,7 @@ export function Header() {
                             src="/aems-n.png"
                             alt="AEMS Logo"
                             fill
-                            className="object-contain object-left"
+                            className="object-contain object-left invert"
                         />
                     </div>
                     <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>
@@ -31,7 +31,7 @@ export function Header() {
                         <Link
                             key={item}
                             href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
-                            className="text-sm font-medium text-foreground/80 hover:text-white transition-colors relative group"
+                            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors relative group"
                         >
                             {item}
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>

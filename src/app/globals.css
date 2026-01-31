@@ -47,41 +47,43 @@
 }
 
 :root {
-  /* Modern Dark Theme - High Contrast & Premium Feel (HEX) */
-  --background: #02040a;
-  --foreground: #f8fafc;
+  /* Modern Light Theme - Clean & Professional */
+  --background: #ffffff;
+  --foreground: #020817;
+  /* Dark Navy/Black for text */
 
-  --card: #0f172a;
-  --card-foreground: #f8fafc;
+  --card: #ffffff;
+  --card-foreground: #020817;
 
-  --popover: #0f172a;
-  --popover-foreground: #f8fafc;
+  --popover: #ffffff;
+  --popover-foreground: #020817;
 
-  /* Spotify Green */
-  --primary: #1db954;
+  /* Primary Brand Color (Spotify Green/Vibrant Green) */
+  --primary: #1cc85b;
+  /* Slightly fresher green for light mode */
   --primary-foreground: #ffffff;
 
-  /* Blue */
-  --secondary: #3b82f6;
-  --secondary-foreground: #ffffff;
+  /* Secondary - Slate Blueish */
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
 
-  --muted: #1e293b;
-  --muted-foreground: #cbd5e1;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
 
-  --accent: #1e293b;
-  --accent-foreground: #f8fafc;
+  --accent: #f8fafc;
+  --accent-foreground: #0f172a;
 
-  --destructive: #7f1d1d;
-  --destructive-foreground: #f8fafc;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
 
-  --border: #1e293b;
-  --input: #1e293b;
-  --ring: #1db954;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #1cc85b;
 
   --radius: 0.75rem;
 
   /* Custom Variables */
-  --landing-header: #02040a;
+  --landing-header: #ffffff;
 }
 
 .dark {

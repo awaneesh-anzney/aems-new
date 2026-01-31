@@ -19,7 +19,7 @@ export function Footer() {
                                     src="/aems-n.png"
                                     alt="AEMS Logo"
                                     fill
-                                    className="object-contain object-left"
+                                    className="object-contain object-left invert"
                                 />
                             </div>
                             <span className="text-xl font-bold text-foreground tracking-tight">Professional Executive Management Services Pvt Ltd.</span>
@@ -39,7 +39,7 @@ export function Footer() {
                                 <li key={item}>
                                     <Link
                                         href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
-                                        className="hover:text-secondary transition-colors"
+                                        className="hover:text-primary transition-colors"
                                     >
                                         {item}
                                     </Link>
@@ -78,7 +78,7 @@ export function Footer() {
                                         placeholder="Email"
                                         className="bg-card border-border focus:border-secondary h-12 rounded-lg pr-28"
                                     />
-                                    <Button className="absolute right-1 top-1 bottom-1 bg-secondary hover:bg-secondary/90 text-white rounded-md px-6 h-auto">
+                                    <Button className="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 text-primary-foreground rounded-md px-6 h-auto">
                                         Subscribe
                                     </Button>
                                 </div>
@@ -90,7 +90,7 @@ export function Footer() {
                             <div className="flex gap-4">
                                 <a
                                     href="#"
-                                    className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-300"
+                                    className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:border-primary hover:text-primary-foreground transition-all duration-300"
                                     aria-label="LinkedIn"
                                 >
                                     <Linkedin className="w-5 h-5" />
