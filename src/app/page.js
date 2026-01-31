@@ -1,6 +1,7 @@
 import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { About } from "@/components/landing/About";
+import { Services } from "@/components/landing/Services";
 import { Footer } from "@/components/landing/Footer";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
+      <Services />
       <Footer />
     </main>
   );
