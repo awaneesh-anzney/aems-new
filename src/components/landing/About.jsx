@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function About() {
     return (
-        <section className="py-20 md:py-32 bg-background text-foreground relative overflow-hidden">
+        <section className="py-10 md:py-20 bg-background text-foreground relative overflow-hidden">
             {/* Subtle background glow */}
             <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
 
@@ -40,7 +40,7 @@ export function About() {
                         </div>
                     </div>
 
-                    <div className="relative">
+                    <div className="relative max-w-md mx-auto">
                         {/* Image Frame */}
                         <div className="relative z-10 rounded-2xl overflow-hidden border border-border aspect-[4/5] bg-card group">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-60 z-10 transition-opacity group-hover:opacity-40"></div>
@@ -59,7 +59,8 @@ export function About() {
                         </div>
 
                         {/* Decorative border outline offset */}
-                        <div className="absolute top-4 left-4 w-full h-full rounded-2xl border border-primary/20 -z-0"></div>
+                        {/* Decorative border outline offset */}
+                        <div className="absolute top-6 left-6 w-full h-full rounded-2xl border-2 border-primary/50 -z-10 bg-transparent"></div>
                     </div>
 
                 </div>
