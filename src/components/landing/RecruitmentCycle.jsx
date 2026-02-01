@@ -28,7 +28,7 @@ export function RecruitmentCycle() {
         },
         {
             id: 3,
-            title: "AEMS Candidate Screening",
+            title: "PEMS Candidate Screening",
             items: ["Evaluate competencies &", "experience fit"],
             icon: Filter,
             position: "right-bottom"
@@ -36,7 +36,7 @@ export function RecruitmentCycle() {
         {
             id: 4,
             title: "Client Interview",
-            items: ["Candidates Telephonic /", "Physical interview, AEMS to", "receive interview results"],
+            items: ["Candidates Telephonic /", "Physical interview, PEMS to", "receive interview results"],
             icon: Users,
             position: "left-bottom"
         },
@@ -186,7 +186,7 @@ export function RecruitmentCycle() {
                                     <Filter className="w-7 h-7 text-muted-foreground group-hover:text-secondary transition-colors" />
                                 </div>
                                 <div className="p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border/50 flex-1">
-                                    <h3 className="text-lg font-bold text-foreground mb-2">AEMS Candidate Screening</h3>
+                                    <h3 className="text-lg font-bold text-foreground mb-2">PEMS Candidate Screening</h3>
                                     <ul className="text-muted-foreground text-sm space-y-1.5 font-medium">
                                         {steps[2].items.map((item, i) => <li key={i}>{item}</li>)}
                                     </ul>

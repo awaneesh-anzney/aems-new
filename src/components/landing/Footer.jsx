@@ -17,7 +17,7 @@ export function Footer() {
                             <div className="relative h-16 w-32">
                                 <Image
                                     src="/aems-n.png"
-                                    alt="AEMS Logo"
+                                    alt="PEMS Logo"
                                     fill
                                     className="object-contain object-left"
                                 />

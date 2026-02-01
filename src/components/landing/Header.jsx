@@ -17,7 +17,7 @@ export function Header() {
                     <div className="relative h-12 w-24">
                         <Image
                             src="/aems-n.png"
-                            alt="AEMS Logo"
+                            alt="PEMS Logo"
                             fill
                             className="object-contain object-left"
                         />
