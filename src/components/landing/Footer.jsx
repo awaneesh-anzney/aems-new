@@ -26,7 +26,7 @@ export function Footer() {
                         </Link>
                         <p className="text-sm leading-relaxed max-w-xs">
                             Professional Executive Management Services Pvt Ltd. is a global Human Capital Advisory firm.
-                            Since 2017, we've partnered with 100+ clients across 14+ countries, helping organizations
+                            Since 2009, we've partnered with 100+ clients across 14+ countries, helping organizations
                             transform people, processes, and technology for sustainable success.
                         </p>
                     </div>

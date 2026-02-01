@@ -14,7 +14,7 @@ export function About() {
 
                         <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
                             <p>
-                                Founded in 2017, Professional Executive Management Services Pvt Ltd. is a global talent solutions firm
+                                Founded in 2009, Professional Executive Management Services Pvt Ltd. is a global talent solutions firm
                                 connecting exceptional talent with opportunity. With 6 global offices and a 30+ member core team,
                                 we've served 100+ clients across 16 industries and 14 countries.
                             </p>
